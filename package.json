@@ -1,0 +1,33 @@
+{
+  "name": "jcb-dialog",
+  "author": "JCB",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/jcb-dialog.js",
+  "exports": {
+    ".": "./dist/jcb-dialog.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docgen": "docgen --api GoogleAuthPlugin --output-readme README2.md"
+  },
+  "keywords": [
+    "webcomponent",
+    "dialog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcbuisson/jcb-dialog.git"
+  },
+  "dependencies": {
+    "lit": "^2.8.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.5"
+  }
+}

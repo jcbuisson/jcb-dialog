@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>jcb-dialog</title>
+      <script type="module" src="/src/jcb-dialog.js"></script>
+   </head>
+   <body>
+         <jcb-dialog id="dialog">
+            <p>Hello world!</p>
+         </jcb-upload>
+   </body>
+</html>
+
+<script>
+   const dialog = document.getElementById('dialog')
+   dialog.visible = true
+
+   dialog.addEventListener('close', (e) => {
+      console.log('close', e)
+      dialog.visible = false
+   })
+</script>
+
+<style>
+:root {
+   --jcb-dialog-background-color: #FFAAAA;
+}
+
+.panel {
+   width: 800px;
+   height: 400px;
+}
+</style>
