@@ -5,9 +5,9 @@ import { LitElement, css, html } from 'lit'
    * @attr {Boolean} visible - Indicates whether it is visible or not (default: false)
    * @attr {Boolean} closable - Indicates whether it has a 'close' button on the top right corner (default: true)
    * @cssprop --jcb-dialog-background-color - Color of the background (default: #fcfcfc)
-   * @cssprop --jcb-dialog-border-width - Dotted border width (default: 2px)
-   * @cssprop --jcb-dialog-border-color - Dotted border color (default: #aaa)
-   * @cssprop --jcb-dialog-border-radius - Dotted border corner radius (default: 20px)
+   * @cssprop --jcb-dialog-border-width - Border width (default: 2px)
+   * @cssprop --jcb-dialog-border-color - Border color (default: #aaa)
+   * @cssprop --jcb-dialog-border-radius - Border corner radius (default: 20px)
    * @cssprop --jcb-dialog-padding - Content padding (default: 20px)
    * @event close - Fired on dialog closing
    */
